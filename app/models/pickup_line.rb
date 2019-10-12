@@ -1,0 +1,2 @@
+class PickupLine < ApplicationRecord
+end
