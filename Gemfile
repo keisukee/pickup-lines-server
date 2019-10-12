@@ -42,6 +42,7 @@ gem 'slack-notifier'
 
 # 管理者画面
 gem 'activeadmin'
+gem 'devise'
 
 group :development, :test do
 
