@@ -22,10 +22,10 @@ module PickupLinesServer
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 5.2
     config.generators do |g|
-      # g.stylesheets :sass
-      g.javascripts false
+      g.stylesheets :css
+      g.javascripts :js
       g.helper false
-      # g.template_engine :haml
+      g.template_engine :slim
       g.test_framework :rspec, view_specs: false, helper_specs: false, fixture: true
       g.fixture_replacement :factory_bot, dir: "spec/support/factories"
     end

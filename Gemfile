@@ -28,6 +28,11 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
 
+# Webフロント 基本
+gem 'html2slim'
+gem 'sass-rails', '~> 5.0'
+gem 'slim-rails'
+
 # API
 gem 'active_model_serializers'
 gem 'acts-as-taggable-on', '~> 6.0'
