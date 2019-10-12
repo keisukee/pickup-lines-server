@@ -40,6 +40,9 @@ gem 'paranoia'
 gem 'exception_notification'
 gem 'slack-notifier'
 
+# 管理者画面
+gem 'activeadmin'
+
 group :development, :test do
 
   # デバッグ
