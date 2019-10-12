@@ -29,6 +29,7 @@ module PickupLinesServer
       g.test_framework :rspec, view_specs: false, helper_specs: false, fixture: true
       g.fixture_replacement :factory_bot, dir: "spec/support/factories"
     end
+    config.middleware.use ActionDispatch::Flash
 
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration can go into files in config/initializers
